@@ -34,10 +34,8 @@ export default function makanpal() {
           </div>
 
           <div className="col-span-5">
-            <h1 className="text-[#574F4A] text-3xl font-bold pb-8">Digitalising physical canteen queues for stall vendors and customers.</h1>
-            <p className="text-[#574F4A] font-light pb-8 md:pb-16">
-              A virtual queuing system to reduce physical queue times in company canteen for staff
-              during lunch hours.</p>
+            <h1 className="text-[#574F4A] text-3xl font-bold pb-8">Digitalising physical canteen queues for stall vendors and customers for increased comfort and efficiency.</h1>
+            <p className="text-[#574F4A] font-light pb-8 md:pb-16">A virtual queuing system to reduce physical queue times in company canteen for staff during lunch hours.</p>
           </div>
         </div>
       </div>
