@@ -11,7 +11,7 @@ variable: "--font-inter",
 weight:["300","600"]
  });
 
-export const poppins = Poppins({ 
+const poppins = Poppins({ 
   subsets: ["latin"],
   display:"swap",
   variable: "--font-poppins",
