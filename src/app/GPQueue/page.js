@@ -125,7 +125,7 @@ const GPQueue = () => {
       paragraph2="Questions were crafted around the focus on wait times to further validate online data sources on long healthcare wait times. Findings are summarised into two main pain points:"
       />
 
-     <Image src={userResearchFindings} class="object-cover object-top w-full pb-16"/>
+     <Image src={userResearchFindings} class="object-cover object-top w-full pb-16" alt="Table showing overview of user research findings for GPQueue"/>
     
     <div className='pb-24'>
      <h2 className="text-2xl font-semibold text-[#363636] pb-6">

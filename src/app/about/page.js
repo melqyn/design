@@ -42,7 +42,7 @@ const About = () => {
 
         <div>
           <h1 className="text-[#574F4A] mt-16 text-2xl font-bold pb-8">
-            At work, I'm...
+            At work, I&apos;m...
           </h1>
           <div className="p-8 bg-[#d3d3d3] bg-opacity-20 rounded-xl group">
             <div className="flex justify-between">
@@ -77,7 +77,7 @@ const About = () => {
         
         <div>
           <h1 className="text-[#574F4A] mt-16 text-2xl font-bold pb-8">
-            When I'm not designing...
+            When I&apos;m not designing...
           </h1>
           <p className="text-[#574F4A] pb-8 leading-relaxed">
             happily cooped up at home bingeing K-dramas,

@@ -24,11 +24,12 @@ const SplashScreen = ({ finishLoading }) => {
           })
         }
 
-    useEffect(() => {
-        const timeout = setTimeout(() => setIsMounted(true), 10)
-        animate()
-        return () => clearTimeout(timeout)
-      }, [])
+        useEffect(() => {
+          const timeout = setTimeout(() => setIsMounted(true), 10);
+          animate();
+          return () => clearTimeout(timeout);
+      }, [animate]);
+      
 
   return (
       <div className="flex fade-in h-screen w-screen items-center justify-center bg-[#FFFBFA] absolute" isMounted={isMounted}>
