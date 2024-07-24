@@ -12,47 +12,32 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12">
           <div className="col-span-7 pb-8 place-self-left">
             <h1 className="text-[#574F4A] text-2xl font-bold pb-8">
-              Hello there, 👋🏻
-            </h1>
-
+              Hello there, 👋🏻 </h1>
             <p className="text-[#574F4A] pb-4 leading-relaxed">
-              I’m Melanie, a fresh graduate from the National University of
-              Singapore. I majored in Communications and New Media and focused my studies on{" "}
-              <b>
-                Interactive Media Development (UI/UX) and Architectural Studies
-              </b>
-              .{" "}
+              I’m Melanie, a fresh graduate from the National University of Singapore. I majored in Communications and New Media with a focus on <b> Interactive Media Development (UI/UX)</b> and <b>Architectural Studies</b>.
             </p>
             <p className="text-[#574F4A] pb-4 leading-relaxed">
-              {" "}
               A little fun fact about me: I studied Architecture in my first
               three semesters of university! My architecture school experience
               continues to guide my design thinking processes. I seek to make
-              informed, sensible design decisions that guides and empowers users.{" "}
+              informed, sensible design decisions that guides and empowers users.
             </p>
             <p className="text-[#574F4A] pb-4 leading-relaxed">
               I have some experience in software engineering, having assisted
-              with front-end development for my recent internship as a{" "}
-              <b>Digital Innovation Intern at Singapore Airlines</b>.
-              Previously, I was a{" "}
-              <b>UI/UX intern at Activate Interactive</b>, and have had multiple stints as a{" "}
-              <b>Undergraduate Teaching Assistant for Interaction Design</b>.{" "}
+              with front-end development for my recent internship as a <b>Digital Innovation Intern at Singapore Airlines</b>.
+              Previously, I was a <b>UI/UX intern at Activate Interactive</b>, and have had multiple stints as a <b> Teaching Assistant for Interaction Design</b>.{" "}
             </p>
           </div>
-
           <div className="col-span-5 flex lg:justify-end lg:pl-16">
             <div className="h-full flex items-center">
               <Image
-                  src="/images/melpic.jpg"
-                  alt="Melanie's Picture"
-                  width={604.8}
-                  height={756}
-                  className="object-right rounded-xl"
-              />
+                src="/images/melpic.jpg"
+                alt="Melanie's Picture"
+                width={604.8}
+                height={756}
+                className="object-right rounded-xl"/>
             </div>
           </div>
-
-
         </div>
 
         <div>
@@ -62,13 +47,13 @@ const About = () => {
           <div className="p-8 bg-[#d3d3d3] bg-opacity-20 rounded-xl group">
             <div className="flex justify-between">
               <p className="text-[#574F4A] text-opacity-70 text-xs pb-4 leading-relaxed">
-              May 2023</p>
+                May 2023</p>
               <p className="text-[#574F4A] opacity-0 group-hover:opacity-100 duration-300 text-opacity-70 text-xs leading-relaxed"> *Full reference letter available on request.</p>
             </div>
-            
+
             <p className="text-[#574F4A] font-bold pb-4 leading-relaxed">
-              "Melanie exhibited strong leadership skills, excellent communication, and people management skills in the various project teams..."
-            </p>  
+            &quot;Melanie exhibited strong leadership skills, excellent communication, and people management skills in the various project teams...&quot;
+            </p>
 
             <p className="text-[#574F4A] pb-8 leading-relaxed">
               Melanie is an exceptionally driven person, always ready to take on challenges. She challenged herself
@@ -78,30 +63,27 @@ const About = () => {
               proof-of-concepts amid the uncertainties and tight timeline. Being a good team player, Melanie was
               well received by other interns and colleagues at KrisLab.
             </p>
-            
+
             <div className="">
               <p className="text-[#574F4A] font-semibold leading-relaxed">
-              ⸻ Ivan Khor
+                ⸻ Ivan Khor
               </p>
               <p className="text-[#574F4A] text-opacity-70 text-xs pb-2 leading-relaxed">
-              Lead Digital Innovation Technologist at <b>Singapore Airlines</b>
+                Lead Digital Innovation Technologist at <b>Singapore Airlines</b>
               </p>
             </div>
           </div>
-          
         </div>
-
-
+        
         <div>
           <h1 className="text-[#574F4A] mt-16 text-2xl font-bold pb-8">
-            When I'm not designing... 
+            When I'm not designing...
           </h1>
           <p className="text-[#574F4A] pb-8 leading-relaxed">
-            you can probably find me hanging out with a friend, 
-            happily cooped up at home bingeing K-dramas, 
-            being unnecessarily competitive with my sisters in Tetris, 
-            or moving about in the corner of a dance studio. 
-            I also sketch, paint and crochet at times! 
+            happily cooped up at home bingeing K-dramas,
+            being unnecessarily competitive with my sisters in Tetris,
+            or moving about in the corner of a dance studio.
+            I love most things creative and hands on - I sketch, paint, crochet and make pottery at times.
           </p>
 
           <div className="grid grid-cols-1 gap-8 md:grid-cols-6 lg:grid-cols-12">
@@ -113,7 +95,7 @@ const About = () => {
                 height={403.2}
                 className="h-auto w-full rounded-xl"
               />
-               <p className="text-[#574F4A] pt-4 leading-relaxed">
+              <p className="text-[#574F4A] pt-4 leading-relaxed">
                 My older sister and me with our handmade crochet orange bags for Lunar New Year! 🍊🍊
               </p>
             </div>
@@ -126,8 +108,8 @@ const About = () => {
                 height={403.2}
                 className="h-auto w-full rounded-xl"
               />
-               <p className="text-[#574F4A] pt-4 leading-relaxed">
-                I've been dancing since secondary school. Am always thankful for the community dance has given me, and the many things I've learnt about myself throughout the years.
+              <p className="text-[#574F4A] pt-4 leading-relaxed">
+                I&apos;ve been dancing since secondary school. Am always thankful for the community dance has given me, and the many things I&apos;ve learnt about myself throughout the years.
               </p>
             </div>
 
@@ -139,8 +121,8 @@ const About = () => {
                 height={403.2}
                 className="h-auto w-full rounded-xl"
               />
-               <p className="text-[#574F4A] pt-4 leading-relaxed">
-               This was me on my first solo trip with Mt. Fuji in the background! 🗻
+              <p className="text-[#574F4A] pt-4 leading-relaxed">
+                This was me on my first solo trip with Mt. Fuji in the background! 🗻
               </p>
             </div>
 
@@ -152,16 +134,13 @@ const About = () => {
                 height={403.2}
                 className="h-auto w-full rounded-xl"
               />
-               <p className="text-[#574F4A] pt-4 leading-relaxed">
+              <p className="text-[#574F4A] pt-4 leading-relaxed">
                 I... love eating 🫶🏻 <a class=" text-[#574F4A] underline hover:text-opacity-70"
-                href="https://www.instagram.com/thehungrymelon/">@thehungrymelon</a> on Instagram is where I share my tummy adventures with the foodie community!
+                  href="https://www.instagram.com/thehungrymelon/">@thehungrymelon</a> on Instagram is where I share my tummy adventures with the foodie community!
               </p>
             </div>
-
           </div>
-
         </div>
-
       </div>
 
       <div className="container mt-24 mx-auto py-4 px-12">

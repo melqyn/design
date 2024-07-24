@@ -13,7 +13,6 @@ import Handover from "./images/handover.png";
 import solutionOverview from "./images/solutionoverview.png"
 import callNextQueue from "./images/callnextqueue.png"
 
-import CSInfo from "../components/CSInfo";
 import CSTitleParagraph from "../components/CSTitleParagraph";
 import HighlightPara from "../components/HighlightPara";
 import { call } from "file-loader";
@@ -38,8 +37,7 @@ export default function makanpal() {
             <h1 className="text-[#574F4A] text-3xl font-bold pb-8">Digitalising physical canteen queues for stall vendors and customers.</h1>
             <p className="text-[#574F4A] font-light pb-8 md:pb-16">
               A virtual queuing system to reduce physical queue times in company canteen for staff
-              during lunch hours.
-            </p>
+              during lunch hours.</p>
           </div>
         </div>
       </div>
@@ -47,18 +45,14 @@ export default function makanpal() {
       <div className="container mx-auto grid grid-cols-12 py-8 px-12 lg:px-48">
         <div className="col-span-5 md:col-span-3 flex-col justify-start">
           <h4 className="text-xs font-semibold text-[#B0B0B0] pb-2">
-            Project Type
-          </h4>
+            Project Type</h4>
           <p className="text-xs text-[#636363]">
-            Internship Team Project (5pax)
-          </p>
+            Internship Team Project (5pax)</p>
         </div>
-
         <div className="col-span-3 md:col-span-1 flex-col justify-start">
           <h4 className="text-xs font-semibold text-[#B0B0B0] pb-2">Tool</h4>
           <p className="text-xs text-[#636363]">Figma</p>
         </div>
-
         <div className="col-span-4 md:col-span-1 flex-col justify-start">
           <h4 className="text-xs font-semibold text-[#B0B0B0] pb-2">
             Timeline
@@ -118,9 +112,9 @@ export default function makanpal() {
         <div className='pb-24'>
           <div>
             <h2 className="text-2xl font-semibold text-[#363636] pb-4">Target User Groups</h2>
-            <p className="text-[#636363] leading-loose pb-8">It is important to note that the application has two interfaces each catering to one of the two user groups: staff and merchants.</p>
-            <p className="text-[#636363] leading-loose pb-8"> The company's staff make up 90% of the customer flow in the in-house staff canteen. Meanwhile, merchants refer to the stall vendors in the canteen.
-              These vendors are contracted by the company and managed by the Human Resource Department, with whom we held multiple meetings with to better cater for merchants' perspectives.  </p>
+            <p className="text-[#636363] leading-loose pb-8">It is important to note that the application has two interfaces each catering to one of the <b>two user groups: staff and merchants</b>.</p>
+            <p className="text-[#636363] leading-loose pb-8"> The company&apos;s staff make up 90% of the customer flow in the in-house staff canteen. Meanwhile, merchants refer to the stall vendors in the canteen.
+              These vendors are contracted by the company and managed by the Human Resource Department, with whom we held multiple meetings with to better cater for merchants&apos; perspectives.  </p>
           </div> <Image class="object-cover object-top w-full"
             src={userGroupsBig}
             alt="MakanPal Users"
@@ -257,7 +251,7 @@ export default function makanpal() {
             <h2 className="text-2xl font-semibold text-[#363636] pb-4">Improving User Freedom + Match between System and Real World</h2>
             <p className="text-[#636363] leading-loose pb-8">
               Users were uneasy about being able to reverse the decision of joining a queue.
-              The lack of a "Leave Queue" function also affected the system's operations as merchants would face 'empty' batches of virtual queue tickets without actual customers
+              The lack of a &quot;Leave Queue&quot; function also affected the system&apos;s operations as merchants would face &quot;empty&quot; batches of virtual queue tickets without actual customers
               (as they  have chosen to queue at another stall instead).
             </p>
             <p className="text-[#636363] leading-loose pb-8">
@@ -285,12 +279,12 @@ export default function makanpal() {
         <div className="pb-16">
           <div>
             <h2 className="text-xl font-semibold text-[#B0B0B0] pb-2">Challenge #2</h2>
-            <h2 className="text-2xl font-semibold text-[#363636] pb-6">Integrating technology into merchants’ current physical workflow</h2>
+            <h2 className="text-2xl font-semibold text-[#363636] pb-6">Integrating technology into merchants&apos; current physical workflow</h2>
           </div>
 
           <p className="text-[#636363] leading-loose pb-8"> These merchants are mostly in their late 50s to 60s, and are non-tech savvy - as self-reported.
             In an earlier one-day test trial (before I joined the team), the merchants have already shown resistance towards adopting technology in their workflow.
-            With the HRD pushing for the revamp and renewal of the staff canteen into a ‘digital canteen’,
+            With the HRD pushing for the revamp and renewal of the staff canteen into a &quot;digital canteen&quot;,
             our team is faced with the challenge to balance the business directions of the company with the needs and comfortability of our merchants.</p>
         </div>
 
@@ -307,11 +301,11 @@ export default function makanpal() {
 
           <p className="text-[#636363] leading-loose pb-8">
             For functionality, we kept in mind the need to optimise work
-            efficiency by minimising the change in merchants’ original
+            efficiency by minimising the change in merchants&apos; original
             workflow. Intentional design decisions were made to <b>prioritise
             the main function of managing a virtual queue - to call the next
             group of customers</b>. Hence, the main working screen was designed
-            with great emphasis on a <b>large "Call Next" button</b> to call the next group of
+            with great emphasis on a <b>large &quot;Call Next&quot; button</b> to call the next group of
             customers, making it easier for our merchants to recall, learn
             and adopt our technology.
           </p>

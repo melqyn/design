@@ -7,7 +7,6 @@ import CSInfo from '../components/CSInfo';
 import CSTitleParagraph from '../components/CSTitleParagraph';
 import HighlightPara from '../components/HighlightPara';
 
-
 import mapViewMidFi from "./images/mapview_midfi.jpg";
 import mapViewHiFi from "./images/mapview_hifi.jpg";
 import queueCompareMidFi from "./images/queuecomparison_midfi.jpg";
@@ -132,7 +131,7 @@ const GPQueue = () => {
      <h2 className="text-2xl font-semibold text-[#363636] pb-6">
           Persona
         </h2>
-    <Image src={persona} class="object-cover w-full mb-16 rounded-xl"/>
+    <Image src={persona} class="object-cover w-full mb-16 rounded-xl" alt="GP Queue persona"/>
     </div>
 
 <CSTitleParagraph
@@ -140,21 +139,6 @@ const GPQueue = () => {
     largetitle={"Problem Statement"}
     paragraph={"Adults, aged 21 to 64, who visit general practitioners when they are unwell want to avoid long physical wait times at general practitioners because extended waiting times not only disrupt their busy schedules but also result in physical discomfort and inefficiency during the clinic visit."}
     />
-
-
-
-{/* <CSTitleParagraph
-    largetitle={"Final User Flow"}
-    paragraph={""}
-    />
-<div className='pb-16'>   
-  <Image class="object-cover object-top w-full"
-    src={userFlow}
-    alt="GPQueue User Flow"
-  ></Image>
-</div>  */}
-    
-
 
 <div className="pb-16">
       <div>
@@ -164,7 +148,8 @@ const GPQueue = () => {
         </h2>
       </div>
       <Image class="object-cover object-top w-full"
-    src={wireframesOverview}/>
+    src={wireframesOverview}
+    alt="GP Queue wireframes overview"/>
 </div>
 
 <div className="pb-16">
@@ -183,15 +168,10 @@ const GPQueue = () => {
   Hence, I created a visual-based map interface where users can access clinic location and wait time information more visually. This interface aims to facilitate the comparison of queue wait times between different clinics, as well as mobile movements to and fro clinics.
   </p>
 
-
-
   <Image class="object-cover object-top w-full"
-    src={mapbasedDesign}/>
+    src={mapbasedDesign}
+    alt="Picture of map-based interactions in GP Queue"/>
 </div>
-
-
-
-
 
     <CSTitleParagraph
     title={"Main Takeaway #1"}
@@ -199,7 +179,6 @@ const GPQueue = () => {
     paragraph="I initially designed the Map View function at the top-right corner of the page. However, user testers were unable to locate the button during user testing, opting to use the search bar instead. After exploring the Map View function, one user tester mentioned that she found the Map View a more efficient visual alternative than the default search page."
     paragraph2="I hence redesigned the button with more visual hierarchy as a clearer signifier to draw user attention."
     />
-    
       <div className="grid grid-cols-12 pb-16">
         <div className="col-span-12 md:col-span-7 flex-col pb-16 md:pr-24">
           <h2 className="text-xl font-semibold text-[#363636] pb-2">Mid-fidelity Design</h2>
