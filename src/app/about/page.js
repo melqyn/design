@@ -17,7 +17,7 @@ const About = () => {
               I’m Melanie, a fresh graduate from the National University of Singapore. I majored in Communications and New Media with a focus on <b> Interactive Media Development (UI/UX)</b> and <b>Architectural Studies</b>.
             </p>
             <p className="text-[#574F4A] pb-4 leading-relaxed">
-              A little fun fact about me: I studied Architecture in my first
+              A little fun fact: I studied Architecture in my first
               three semesters of university! My architecture school experience
               continues to guide my design thinking processes. I seek to make
               informed, sensible design decisions that guides and empowers users.
@@ -45,10 +45,10 @@ const About = () => {
             At work, I&apos;m...
           </h1>
           <div className="p-8 bg-[#d3d3d3] bg-opacity-20 rounded-xl group">
-            <div className="flex justify-between">
-              <p className="text-[#574F4A] text-opacity-70 text-xs pb-4 leading-relaxed">
+            <div className="md:flex md:justify-between">
+              <p className="text-[#574F4A] text-opacity-70 text-xs leading-relaxed">
                 May 2023</p>
-              <p className="text-[#574F4A] opacity-0 group-hover:opacity-100 duration-300 text-opacity-70 text-xs leading-relaxed"> *Full reference letter available on request.</p>
+              <p className="text-[#574F4A] opacity-0 group-hover:opacity-100 duration-300 text-opacity-70 text-xs leading-relaxed pb-4"> *Full reference letter available on request.</p>
             </div>
 
             <p className="text-[#574F4A] font-bold pb-4 leading-relaxed">
@@ -80,9 +80,9 @@ const About = () => {
             When I&apos;m not designing...
           </h1>
           <p className="text-[#574F4A] pb-8 leading-relaxed">
-            happily cooped up at home bingeing K-dramas,
+            you can find me happily cooped up at home bingeing K-dramas,
             being unnecessarily competitive with my sisters in Tetris,
-            or moving about in the corner of a dance studio.
+            or moving about in a dance studio.
             I love most things creative and hands on - I sketch, paint, crochet and make pottery at times.
           </p>
 

@@ -19,11 +19,11 @@ function HeroSection() {
         <div>
           <h1 className="text-[#574F4A] leading-[1.2] mb-8 text-3xl md:text-4xl lg:text-5xl font-extrabold md:text-center poppins">
             hello, i’m melanie!</h1>
-          <p className="text-[#76655B] mb-4 text-s lg:text-l md:text-center ">
+          <p className="text-[#76655B] mb-4 text-s lg:text-l md:text-center">
             I craft clean user experiences with a focus on clarity and intention.<br></br>
           </p>
-          <p className="text-[#76655B] mb-8 lg:mb-12 text-s lg:text-l md:text-center ">
-            Previously at <u>Singapore Airlines</u> and <u>Activate Interactive</u>.
+          <p className="text-[#76655B] mb-8 lg:mb-12 text-s lg:text-l md:text-center">
+            Previously at <b>Singapore Airlines</b> and <b>Activate Interactive</b>.
           </p>
         </div>
 
