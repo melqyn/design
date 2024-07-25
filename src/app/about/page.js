@@ -49,9 +49,9 @@ const About = () => {
           </h1>
           <div className="p-8 bg-[#d3d3d3] bg-opacity-20 rounded-xl group">
             <div className="md:flex md:justify-between">
-              <p className="text-[rgb(87,79,74)] text-opacity-70 text-xs leading-relaxed">
+              <p className="text-[rgb(87,79,74)] text-opacity-70 text-xs pb-4 leading-relaxed">
                 May 2023</p>
-              <p className="text-[#574F4A] opacity-0 group-hover:opacity-100 duration-300 text-opacity-70 text-xs leading-relaxed pb-4"> *Full reference letter available on request.</p>
+              <p className="text-[#574F4A] opacity-0 group-hover:opacity-100 duration-300 text-opacity-70 text-xs leading-relaxed pb-4 hidden sm:block"> *Full reference letter available on request.</p>
             </div>
 
             <p className="text-[#636363] font-bold pb-4 leading-relaxed">
@@ -82,10 +82,10 @@ const About = () => {
           <h1 className="text-[#574F4A] mt-16 text-2xl font-bold pb-8">
             🌿 When I&apos;m not designing...</h1>
           <p className="text-[#636363] pb-8 leading-relaxed">
-            you can find me happily cooped up at home bingeing K-dramas,
+            you can probably find me happily cooped up at home bingeing K-dramas,
             being unnecessarily competitive with my sisters in Tetris,
             or moving about in a dance studio.
-            I love most things creative and hands on - I sketch, paint, crochet and make pottery at times.
+            I love most things creative and hands-on - I sketch, paint, crochet and make pottery at times.
           </p>
 
           <div className="grid grid-cols-1 gap-8 md:grid-cols-6 lg:grid-cols-12">

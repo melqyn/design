@@ -5,17 +5,17 @@ const timelineData = [
   {
     date: 'Jun - Nov, 2022',
     title: 'UI/UX Design Intern, Activate Interactive',
-    description: 'Developed strong foundation in UI design based in real-world projects.'
+    description: 'Developed a strong foundation in UI design aligned with industry standards through real-world projects.'
   },
   {
     date: 'Jan - May, 2023',
     title: 'Digital Innovation (UI/UX) Intern, Singapore Airlines',
-    description: 'Honed my UX techniques in a fast-paced collaborative environment, and gained practical experience in front-end development, all within an Agile development environment.'
+    description: 'Honed my UX techniques in a fast-paced collaborative environment and gained practical experience in front-end development, all within an Agile development environment.'
   },
   {
     date: 'Jan - Jul, 2024',
-    title: 'Interaction Teaching Assistant, National University of Singapore',
-    description: 'Multiple stints where I shared my expertise with like-minded peers, including module CS3240 Interaction Design, NUS SCALE Youth Programme and School of Computing (SOC) Summer Workshop 2024.'
+    title: 'Interaction Design Teaching Assistant, National University of Singapore',
+    description: 'Shared my expertise with like-minded peers through multiple stints, including module CS3240 Interaction Design, NUS SCALE Youth Programme and School of Computing (SOC) Summer Workshop 2024.'
   },
 ];
 
@@ -33,7 +33,7 @@ const Timeline = () => {
             inline-flex items-center justify-center text-xs font-semibold  
            px-4 h-6 mb-3 sm:mb-0 text-[#fff] bg-[#574F4A] rounded-full">{item.date}</time>
 
-            <div className="text-xl font-semibold text-[#363636] mr-10 sm:translate-x-12 ">{item.title}</div>
+            <div className="text-xl font-semibold text-[#636363] leading-relaxed mb-2 mr-10 sm:translate-x-12 ">{item.title}</div>
           </div>
           {/* Description */}
           <div className="text-[#636363] leading-loose mr-10 sm:translate-x-12">{item.description}</div>
