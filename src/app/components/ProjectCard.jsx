@@ -1,12 +1,17 @@
 import React from "react";
 import Link from "next/link";
 
-const ProjectCard = ({ imgUrl, title, projectinfo, description, url, label }) => {
+const ProjectCard = ({ imgUrl, title, projectinfo, description, url, label, label2 }) => {
   return (
     <div className="relative h-full">
       {label && (
         <div className="absolute top-2 right-2 text-[#574F4A] bg-[#fff] text-xs font-bold px-2 py-1 rounded-xl">
           {label}
+        </div>
+      )}
+      {label2 && (
+        <div className="absolute top-9 right-2 text-[#574F4A] bg-[#fff] text-xs font-bold px-2 py-1 rounded-xl">
+          {label2}
         </div>
       )}
       <Link href={url} className="block h-full" target="_blank">

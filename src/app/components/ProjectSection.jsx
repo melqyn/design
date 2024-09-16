@@ -4,24 +4,26 @@ import ProjectCard from "./ProjectCard";
 const projectsData = [
   {
     id: 6,
-    title: "GPQueue",
-    projectinfo: "school • 2023",
-    description:
-      "Providing wait time clarity and streamlining mobile movements for drop-in patients at GPs.",
-    image: "/images/projects/GPQueue.png",
-    url: "/GPQueue",
-    label:"UI/UX Design"
-  },
-  
-  {
-    id: 5,
     title: "MakanPal",
     projectinfo: "internship • 2023",
     description:
       "Digitalising physical canteen queues for stall vendors and customers for increased comfort and efficiency.",
     image: "/images/projects/cover1.png",
     url: "/makanpal",
-    label:"UI/UX Design"
+    label:"Product Design",
+    label2:"UI/UX Design",
+  },
+
+  {
+    id: 5,
+    title: "GPQueue",
+    projectinfo: "school • 2023",
+    description:
+      "Providing wait time clarity and streamlining mobile movements for drop-in patients at GPs.",
+    image: "/images/projects/GPQueue.png",
+    url: "/GPQueue",
+    label:"UI/UX Design",
+    label2:"Mobile Interaction Design"
   },
 
   {
@@ -58,7 +60,7 @@ const projectsData = [
 
   {
     id: 1,
-    title: "Boucy Escape",
+    title: "Bouncy Escape",
     projectinfo: "school • solo • 2021",
     description: "Coded a platform game with HTML, CSS, JavaScript.",
     image: "/images/projects/cover5.png",
@@ -83,6 +85,7 @@ const ProjectSection = () => {
               imgUrl={project.image}
               url={project.url}
               label={project.label}
+              label2={project.label2}
             />
           </div>
         ))}

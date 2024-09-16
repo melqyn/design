@@ -340,6 +340,32 @@ export default function makanpal() {
             </ul>
           </div>
         </div>
+
+        <div className="pb-16">
+          <div>
+            <h2 className="text-xl font-semibold text-[#B0B0B0] pb-2">The Impact</h2>
+            <h2 className="text-2xl font-semibold text-[#636363] pb-6">Over 90% of staff surveyed found the application easy to use and helpful.</h2>
+          </div>
+
+          <div>
+            <p className="text-[#636363] leading-loose pb-2">
+              We included an optional survey at the end of the user journey to gather feedback on the usability and helpfulness of the application. Of those who participated in the survey, over 90% found the application easy to use and helpful in two separate questions. 
+            </p>
+          </div>
+        </div>
+
+        <div className="pb-16">
+          <div>
+            <h2 className="text-xl font-semibold text-[#B0B0B0] pb-2">Moving on...</h2>
+            <h2 className="text-2xl font-semibold text-[#636363] pb-6">Including ordering and paying of meals in application.</h2>
+          </div>
+
+          <div>
+            <p className="text-[#636363] leading-loose pb-2">
+              For areas of improvement, staff continued to show interest in incorporating ordering and payments into the application for future development. The feasibility of payments is currently being looked at by the team.
+            </p>
+          </div>
+        </div>
       </div>
 
       <div className="container mt-24 mx-auto py-4 px-12">

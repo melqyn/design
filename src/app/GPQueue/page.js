@@ -221,7 +221,7 @@ const GPQueue = () => {
         </div>
       </div>
 
-      <div>
+      <div className='pb-16'>
       <h2 className="text-2xl font-semibold text-[#363636] pb-4">Interactive Prototype</h2>
       <div className='flex items-center justify-center'>
       <iframe style={{border: "1px solid rgba(0, 0, 0, 0.1);"}} width="full" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FVk1xWbnHSbTlPhbSyA4lSw%2FGPQueue%3Fpage-id%3D22%253A4722%26node-id%3D54-10984%26viewport%3D83%252C3376%252C0.39%26t%3DLBeO0SDP6U2ifWK4-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D54%253A10984%26hide-ui%3D1" allowfullscreen></iframe>
