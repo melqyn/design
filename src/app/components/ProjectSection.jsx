@@ -26,27 +26,27 @@ const projectsData = [
     label2:"Mobile Interaction Design"
   },
 
-  {
-    id: 4,
-    title: "homebuddy",
-    projectinfo: "school • solo • 2022",
-    description:
-      "Connecting apartment hunting with district research, improving accessibility and security for prospective tenants.",
-    image: "/images/projects/cover2.png",
-    url: "https://bootcamp.uxdesign.cc/homebuddy-an-apartment-hunting-mobile-app-ux-case-study-1a3b06bb1bdf",
-    label:"UI/UX Design"
-  },
+  // {
+  //   id: 4,
+  //   title: "homebuddy",
+  //   projectinfo: "school • solo • 2022",
+  //   description:
+  //     "Connecting apartment hunting with district research, improving accessibility and security for prospective tenants.",
+  //   image: "/images/projects/cover2.png",
+  //   url: "https://bootcamp.uxdesign.cc/homebuddy-an-apartment-hunting-mobile-app-ux-case-study-1a3b06bb1bdf",
+  //   label:"UI/UX Design"
+  // },
 
-  {
-    id: 3,
-    title: "Eaterio",
-    projectinfo: "school • team (4pax) • 2022",
-    description:
-      "Decide where and what to eat collaboratively, with trusted recommendations from your social circles.",
-    image: "/images/projects/cover3.png",
-    url: "https://uxfol.io/p/98661551/030f3a8d",
-    label:"UI/UX Design"
-  },
+  // {
+  //   id: 3,
+  //   title: "Eaterio",
+  //   projectinfo: "school • team (4pax) • 2022",
+  //   description:
+  //     "Decide where and what to eat collaboratively, with trusted recommendations from your social circles.",
+  //   image: "/images/projects/cover3.png",
+  //   url: "https://uxfol.io/p/98661551/030f3a8d",
+  //   label:"UI/UX Design"
+  // },
 
   // {
   //   id: 2,
