@@ -18,6 +18,7 @@ import wireframesOverview from "./images/wireframesoverview.png"
 import mapbasedDesign from "./images/mapbased.png"
 import persona from "./images/persona.png"
 import solution from "./images/solution.png"
+import initialUserFlow from "./images/initialuserflow.jpg"
 
 const GPQueue = () => {
   return (
@@ -82,7 +83,7 @@ const GPQueue = () => {
 
     <CSTitleParagraph
       largetitle={"Project Context"}
-      paragraph={"This project was designed for NUS module NM4259HM Mobile Interaction Design. GPQueue is proposed as an extension to the Health Appointment System by Open Government Products which caters to booking of appointment slots (with at least a day in advance) at GP clinics."}
+      paragraph={"This project was designed for NUS module NM4259HM Mobile Interaction Design. The brief was to design for a mobile interaction interventation for a data-driven problem. I chose the healthcare topic as I was motivated by my own experiences with long healthcare wait times. GPQueue is proposed as an extension to the Health Appointment System by Open Government Products. The latter caters to booking of appointment slots (with at least a day in advance) at GP clinics."}
     />
 
     <HighlightPara
@@ -124,7 +125,6 @@ const GPQueue = () => {
       paragraph={"I conducted 4 semi-structured interviews to understand the current user experience and pain points of drop-in visits at GP clinics. All sessions were one-off one-to-one sessions."}
       paragraph2="Questions were crafted around the focus on wait times to further validate online data sources on long healthcare wait times. Findings are summarised into two main pain points:"
       />
-
      <Image src={userResearchFindings} class="object-cover object-top w-full pb-16" alt="Table showing overview of user research findings for GPQueue"/>
     
     <div className='pb-24'>
@@ -142,9 +142,9 @@ const GPQueue = () => {
 
 <div className="pb-16">
       <div>
-        <h2 className="text-xl font-semibold text-[#B0B0B0] pb-2">Design and Test</h2>
+        <h2 className="text-xl font-semibold text-[#B0B0B0] pb-2">Design and Test: Wireframing</h2>
         <h2 className="text-2xl font-semibold text-[#363636] pb-6">
-          Wireframing
+          How Proposed Solutions Targeting Pain Points
         </h2>
       </div>
       <Image class="object-cover object-top w-full"
@@ -153,8 +153,22 @@ const GPQueue = () => {
 </div>
 
 <div className="pb-16">
+<h2 className="text-xl font-semibold text-[#B0B0B0] pb-2">Design and Test: Mid-fidelity</h2>
   <h2 className="text-2xl font-semibold text-[#363636] pb-6">
-    Mid-fidelity: Addition of Map-based Interactions
+    Initial User Flow
+  </h2>
+  <Image class="object-cover object-top w-full"
+    src={initialUserFlow}
+    alt="Picture of initial user flow of GP Queue"/>
+  <p className="text-[#636363] leading-loose pb-8">
+    To make real-time wait times readily accessible by members of the public, I designed for the user registeration process to be at the point of making an appointment. In other words, users only commit to giving their particulars when they make an appointment with their GP clinic of choice. 
+  </p>
+</div>
+
+<div className="pb-16">
+<h2 className="text-xl font-semibold text-[#B0B0B0] pb-2">Design and Test: Mid-fidelity</h2>
+  <h2 className="text-2xl font-semibold text-[#363636] pb-6">
+    Addition of Map-based Interactions
   </h2>
   <p className="text-[#636363] leading-loose pb-8">
     User testings on wireframes led to some minor tweaks to the functions, such as the addition of Singpass login method and a sort feature when searching for GP clinics. 
@@ -173,9 +187,22 @@ const GPQueue = () => {
     alt="Picture of map-based interactions in GP Queue"/>
 </div>
 
+<div className="pb-16">
+<h2 className="text-xl font-semibold text-[#B0B0B0] pb-2">Design and Test: Mid-fidelity</h2>
+<h2 className="text-2xl font-semibold text-[#363636] pb-6">
+    Revised User Flow
+  </h2>
+  <p className="text-[#636363] leading-loose pb-8">
+  With the addition of map-based interactions, I revised the user flow. I also added a new physical start point in the user flow to account for patients who might arrive physically at the clinic. Users will be able to enter the digital flow directly for registration by scanning a QR code pasted on the clinic door. This allows patients who arrive earlier than the opening hours of the clinic to secure their slot in queue. Should patients choose to register with counter, for instance if they are unfamiliar with technology, counter staff can register them physically. They will be provided a QR code to monitor their queue online should they wish to.
+  </p>
+<Image class="object-cover object-top w-full"
+    src={userFlow}
+    alt="Picture of user flow of GP Queue"/>
+</div>
+
     <CSTitleParagraph
-    title={"Main Takeaway #1"}
-    largetitle={"High-fidelty: Clear Signifiers"}
+    title={"Design and Test: Hi-fidelity"}
+    largetitle={"Clear Signifiers"}
     paragraph="I initially designed the Map View function at the top-right corner of the page. However, user testers were unable to locate the button during user testing, opting to use the search bar instead. After exploring the Map View function, one user tester mentioned that she found the Map View a more efficient visual alternative than the default search page."
     paragraph2="I hence redesigned the button with more visual hierarchy as a clearer signifier to draw user attention."
     />
@@ -196,10 +223,9 @@ const GPQueue = () => {
         </div>
       </div>
     
-    
       <CSTitleParagraph
-    title={"Main Takeaway #2"}
-    largetitle={"High-fidelity: Reduce User Cognitive Load by Proactively Providing Information"}
+    title={"Design and Test: Hi-fidelity"}
+    largetitle={"Reduce User Cognitive Load by Proactively Providing Information"}
     paragraph="During user testing, I noticed that users hesitated for quite a bit upon seeing the queue length when clicking on specific clinics. When clarified on their hesitation, users mentioned that it was difficult to compare queue lengths of the current queue with alternative clinics manually as they had to remember the different numbers, highlighting user cognitive overload."
     paragraph2="Hence, my final prototype provides this comparison directly to reduce cognitive load for users. This also targets recognition over recall heuristics, helping users to faster identify shorter queues. Colour was used for easier recognition as well."
     />
@@ -224,7 +250,7 @@ const GPQueue = () => {
       <div className='pb-16'>
       <h2 className="text-2xl font-semibold text-[#363636] pb-4">Interactive Prototype</h2>
       <div className='flex items-center justify-center'>
-      <iframe style={{border: "1px solid rgba(0, 0, 0, 0.1);"}} width="full" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FVk1xWbnHSbTlPhbSyA4lSw%2FGPQueue%3Fpage-id%3D22%253A4722%26node-id%3D54-10984%26viewport%3D83%252C3376%252C0.39%26t%3DLBeO0SDP6U2ifWK4-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D54%253A10984%26hide-ui%3D1" allowfullscreen></iframe>
+      <iframe style={{border: "1px solid rgba(0, 0, 0, 0.1);"}} width="full" height="550" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FVk1xWbnHSbTlPhbSyA4lSw%2FGPQueue%3Fpage-id%3D22%253A4722%26node-id%3D54-10984%26viewport%3D83%252C3376%252C0.39%26t%3DLBeO0SDP6U2ifWK4-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D54%253A10984%26hide-ui%3D1" allowfullscreen></iframe>
       </div></div>
       
 

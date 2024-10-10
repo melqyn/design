@@ -4,6 +4,18 @@ import ProjectCard from "./ProjectCard";
 const projectsData = [
   {
     id: 6,
+    title: "GPQueue",
+    projectinfo: "school • 2023",
+    description:
+      "Providing wait time clarity and streamlining mobile movements for drop-in patients at GPs.",
+    image: "/images/projects/GPQueue.png",
+    url: "/GPQueue",
+    label:"UI/UX Design",
+    label2:"Mobile Interaction Design"
+  },
+
+  {
+    id: 5,
     title: "MakanPal",
     projectinfo: "internship • 2023",
     description:
@@ -15,27 +27,15 @@ const projectsData = [
   },
 
   {
-    id: 5,
-    title: "GPQueue",
-    projectinfo: "school • 2023",
+    id: 4,
+    title: "homebuddy",
+    projectinfo: "school • solo • 2022",
     description:
-      "Providing wait time clarity and streamlining mobile movements for drop-in patients at GPs.",
-    image: "/images/projects/GPQueue.png",
-    url: "/GPQueue",
-    label:"UI/UX Design",
-    label2:"Mobile Interaction Design"
+      "Connecting apartment hunting with district research, improving accessibility and security for prospective tenants.",
+    image: "/images/projects/cover2.png",
+    url: "https://medium.com/design-bootcamp/homebuddy-an-apartment-hunting-mobile-app-ux-case-study-1a3b06bb1bdf",
+    label:"UI/UX Design"
   },
-
-  // {
-  //   id: 4,
-  //   title: "homebuddy",
-  //   projectinfo: "school • solo • 2022",
-  //   description:
-  //     "Connecting apartment hunting with district research, improving accessibility and security for prospective tenants.",
-  //   image: "/images/projects/cover2.png",
-  //   url: "https://bootcamp.uxdesign.cc/homebuddy-an-apartment-hunting-mobile-app-ux-case-study-1a3b06bb1bdf",
-  //   label:"UI/UX Design"
-  // },
 
   // {
   //   id: 3,
