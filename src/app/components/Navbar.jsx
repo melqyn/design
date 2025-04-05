@@ -84,7 +84,7 @@ const Navbar = () => {
               <Link
                 href={"/Melanie Quek_Resume.pdf"}
                 target="_blank"
-                className="text-[#574F4A] hover:text-opacity-70 font-bold block py-1 pl-3 pr-3 border-2 border-[#574F4A] hover:border-[#574F4A70] rounded-full nav_link">
+                className="text-[#574F4A] hover:text-opacity-70 font-bold block py-2 pl-4 pr-4 border-2 border-[#574F4A] hover:border-[#574F4A70] rounded-full nav_link">
                 Resume
               </Link>
             </li>

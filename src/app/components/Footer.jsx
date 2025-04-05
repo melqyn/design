@@ -12,7 +12,7 @@ const Footer = () => {
 
   switch (currentPage) {
     case "/about":
-      secondHeadingText = "See my design works 🎨";
+      secondHeadingText = "See my works 🎨";
       secondHeadingUrl = "/#works";
       break;
     default:
@@ -49,7 +49,7 @@ const Footer = () => {
         </Link>
       </div>
       <div className="flex flex-col items-left mx-auto pb-12">
-      <p className="text-[#76655B] text-xs md:text-lg text-opacity-40 poppins">Designed and coded by Melanie Quek 2024 © </p></div>
+      <p className="text-[#76655B] text-xs text-opacity-40 ">Designed and coded by Melanie Quek 2025 © </p></div>
     </div>
   );
 };
