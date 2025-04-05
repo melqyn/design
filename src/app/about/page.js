@@ -53,7 +53,7 @@ const About = () => {
                 target="_blank"
                 className="text-[#574F4A] inline-flex items-center hover:text-opacity-70 font-bold py-4 pl-8 pr-8 border-2 border-[#574F4A] hover:border-[#574F4A70] rounded-full"
               >
-                View Melanie's resume
+                View Melanie&apos;s resume
                 <ArrowTopRightOnSquareIcon className="ml-3 h-5 w-5" />
               </Link>
         </div>
